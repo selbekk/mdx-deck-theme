@@ -1,23 +1,96 @@
-import { Head } from 'mdx-deck'
+import { Head, Image } from 'mdx-deck'
+import { Grid, Cell } from 'styled-css-grid';
+import Layout from './src/Layouts';
 
-export { default as theme } from './theme'
+export { lightTheme as theme } from './theme'
 
 <Head>
-  <title>Presentation Title</title>
+  <title>Bekk sin MDX-mal</title>
 </Head>
 
-# Hello
+# Bekk sin MDX-mal
+
+Dette er MDX-malen til Bekk. 
 
 ---
 
-## Edit this file
+## Hva er MDX?
 
-To create your presentation
+Et fancy nytt presentasjonsrammeverk!
 
-```notes
-- Create speaker notes in fenced code blocks
+Du kan lage din egen slik:
+
+```bash
+npx create-deck min-presentasjon
+cd min-presentasjon
+npm start
+```
+
+[Les mer her](https://jxnblk.com/mdx-deck)
+
+---
+
+## Hva finner du her?
+
+Her finner du eksempler på hvordan ting kan se ut, 
+og hvordan du kan lage flotte presentasjoner helt selv!
+
+### Husk fonter!
+
+Du må ha installert merkevarefontene våre - DIN OT og Winzald - for at ting skal 
+se riktig ut. Fontene våre finner du 
+på [merkevare.bekk.no](https://merkevare.bekk.no).
+
+---
+
+## Overskrift
+
+### Om Bekk
+
+Vi er et norsk selskap med over 400 spesialister innen strategi, design og 
+teknologi. Virksomhetene vi jobber med har ambisiøse mål, og gir oss krevende 
+utfordringer. 
+
+Vi tror på smart bruk av teknologi, tverrfaglige team og evnen til å tenke 
+annerledes. Det gjør at vi kan lage løsninger som utfordrer etablerte sannheter, 
+og skape nye muligheter for våre kunder. 
+
+---
+
+## Oppsett av sitat
+
+> «If you are not embarrassed by the first version of your product, you've 
+> launched too late.»
+> <cite>– Reid Hoffmann, co-founder LinkedIn</cite>
+
+---
+
+## Et kodeeksempel
+
+```js
+const Bryter = props => (
+  <button 
+    style={{ background: props.on ? 'green' : 'red' }} 
+    onClick={props.onToggle}
+  >
+    {props.children}
+  </button>
+);
 ```
 
 ---
 
-<https://github.com/jxnblk/mdx-deck>
+## Tabell 
+
+|      | Q1  | Q2  | Q3  | Q4  |
+| ---- | --- | --- | --- | --- |
+| 2016 | 680 000,- | 840 000,- | 750 000,- | 920 000,- |
+| 2017 | 726 000,- | 1 002 000,- | 827 000,- | 928 000,- |
+| 2018 | 716 000,- | 774 000,- | 882 000,- | 1 201 000,- |
+
+---
+
+<Image src="https://picsum.photos/1600/1200" size="cover" />
+
+
+
