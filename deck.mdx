@@ -1,6 +1,6 @@
 import { Head, Image } from 'mdx-deck'
-import { Grid, Cell } from 'styled-css-grid';
 import Layout from './src/Layouts';
+import SmallText from './src/SmallText';
 
 export { lightTheme as theme } from './theme'
 
@@ -67,7 +67,7 @@ og skape nye muligheter for våre kunder.
 
 ## Et kodeeksempel
 
-```js
+```jsx
 const Bryter = props => (
   <button 
     style={{ background: props.on ? 'green' : 'red' }} 
@@ -80,13 +80,29 @@ const Bryter = props => (
 
 ---
 
-## Tabell 
+## Tabell med tall
 
 |      | Q1  | Q2  | Q3  | Q4  |
 | ---- | --- | --- | --- | --- |
 | 2016 | 680 000,- | 840 000,- | 750 000,- | 920 000,- |
 | 2017 | 726 000,- | 1 002 000,- | 827 000,- | 928 000,- |
 | 2018 | 716 000,- | 774 000,- | 882 000,- | 1 201 000,- |
+
+<SmallText>
+  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor 
+  congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus 
+  malesuada libero, sit amet commodo magna eros quis urna. 
+</SmallText>
+
+---
+
+## Tabell med tekst
+
+| Alternativ 1  | Alternativ 2  | Alternativ 3  | Alternativ 4  |
+| ------------- | ------------- | ------------- | ------------- |
+|  Ansette alle utviklere selv, og ikke ha noen konsulenter | Ansette flest selv, men ha et par konsulenter for å fylle ut teamet | Flest konsulenter, men også et par faste ansatte i nøkkelroller | Fullt team med konsulenter, inkludert produktutviklere |
+|  Ansette alle utviklere selv, og ikke ha noen konsulenter | Ansette flest selv, men ha et par konsulenter for å fylle ut teamet | Flest konsulenter, men også et par faste ansatte i nøkkelroller | Fullt team med konsulenter, inkludert produktutviklere |
+|  Ansette alle utviklere selv, og ikke ha noen konsulenter | Ansette flest selv, men ha et par konsulenter for å fylle ut teamet | Flest konsulenter, men også et par faste ansatte i nøkkelroller | Fullt team med konsulenter, inkludert produktutviklere |
 
 ---
 

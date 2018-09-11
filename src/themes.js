@@ -61,7 +61,7 @@ export const darkTheme = {
   table: {
     fontSize: '20px',
     fontFamily: fonts.sansSerif,
-    margin: '0 40px',
+    margin: '0 40px 40px',
     width: '80%',
     '& th': {
       borderColor: colors.black,
