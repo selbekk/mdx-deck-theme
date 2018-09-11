@@ -1,7 +1,7 @@
 {
   "private": true,
   "version": "1.0.0",
-  "description": "Deck created with mdx-deck",
+  "description": "Example deck for the Bekk theme",
   "scripts": {
     "start": "mdx-deck deck.mdx",
     "build": "mdx-deck build deck.mdx",
@@ -15,5 +15,8 @@
   "devDependencies": {
     "mdx-deck": "^1.6.7"
   },
-  "name": "bekk-mdx-theme"
+  "name": "bekk-mdx-theme",
+  "dependencies": {
+    "react-syntax-highlighter": "^8.0.1"
+  }
 }

@@ -33,13 +33,14 @@ export const darkTheme = {
     fontSize: '40px',
     fontWeight: 400,
     marginTop: '2em',
-    marginBottom: '1em',
+    marginBottom: '2em',
   },
   h3: {
     fontFamily: fonts.sansSerif,
     fontSize: '24px',
     fontWeight: 300,
     marginLeft: '40px',
+    marginTop: '0',
   },
   p: {
     fontFamily: fonts.sansSerif,
@@ -56,6 +57,23 @@ export const darkTheme = {
     marginLeft: '80px',
     padding: '20px',
     maxWidth: '80%',
+  },
+  table: {
+    fontSize: '20px',
+    fontFamily: fonts.sansSerif,
+    margin: '0 40px',
+    width: '80%',
+    '& th': {
+      borderColor: colors.black,
+      fontWeight: 400,
+      padding: '10px',
+      textAlign: 'left',
+    },
+    '& td': {
+      borderColor: colors.greyMedium,
+      fontWeight: 300,
+      padding: '10px',
+    },
   },
   components: {
     blockquote: Blockquote,
