@@ -3,7 +3,9 @@
   "description": "Bekk mdx-deck theme",
   "scripts": {
     "start": "mdx-deck deck.mdx",
-    "build": "babel src --out-dir lib"
+    "build": "run-s build:js build:docs",
+    "build:js": "babel src --out-dir lib",
+    "build:docs": "mdx-deck build --out-dir docs deck.mdx"
   },
   "keywords": [],
   "author": "Kristofer Selbekk",
@@ -14,7 +16,8 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "mdx-deck": "^1.6.7"
+    "mdx-deck": "^1.6.7",
+    "npm-run-all": "^4.1.3"
   },
   "name": "@bekk/mdx-deck-theme",
   "main": "lib/index.js",
