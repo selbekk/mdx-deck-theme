@@ -38,14 +38,23 @@ Fontene heter Newzald og DIN OT.
 I tillegg til det grunnleggende temaet har man noen ekstra verktøy man kan bruke
 om man skulle trenge dem:
 
-### `CenteredLayout`
+### `CoverSlide`
 
-Brukes for å sentrere innholdet i begge retninger. Må ligge i en egen
-`.mdx`-fil, grunnet en begrensning med MDX-selv.
+Den første sliden har et litt mer komplekst design. Bruk denne komponenten for å
+slippe å lage den selv.
+
+#### Eksempel
 
 ```js
-import { CenteredLayout } from '@bekk/mdx-deck-theme';
-export default CenteredLayout;
+import { CoverSlide } from '@bekk/mdx-deck-theme';
+
+<CoverSlide
+  what="Tittel på presentasjon"
+  who="Navn på de(n) som prater, og rolle"
+  when="Dato"
+  where="Anledning / sted"
+  textColor="#hex-farge, hvis man trenger å overstyre temaet (optional)"
+/>;
 ```
 
 ### `StandaloneHeading`
