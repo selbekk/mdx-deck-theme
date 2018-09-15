@@ -48,6 +48,18 @@ import { CenteredLayout } from '@bekk/mdx-deck-theme';
 export default CenteredLayout;
 ```
 
+### `StandaloneHeading`
+
+En stor, sentrert tekst. Passer bra til å introdusere temas.
+
+#### Eksempel
+
+```js
+import { StandaloneHeading } from '@bekk/mdx-deck-theme';
+
+<StandaloneHeading>Overskrifter er viktige</StandaloneHeading>;
+```
+
 ### `SmallText`
 
 Brukes under tabeller eller figurer for å beskrive hva som står over
