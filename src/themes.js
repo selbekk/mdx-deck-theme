@@ -75,6 +75,11 @@ export const darkTheme = {
       padding: '10px',
     },
   },
+  li: {
+    fontFamily: fonts.sansSerif,
+    fontSize: '24px',
+    fontWeight: '300',
+  },
   components: {
     blockquote: Blockquote,
     wrapper: DefaultLayout,
