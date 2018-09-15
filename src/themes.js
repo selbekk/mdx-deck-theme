@@ -1,6 +1,6 @@
 import defaultTheme from 'mdx-deck/themes';
 import { fonts, colors } from './constants';
-import { DefaultLayout } from './Layouts';
+import { DefaultLayout } from './layouts';
 import Blockquote from './Blockquote';
 
 import okaidia from 'react-syntax-highlighter/styles/prism/okaidia';
