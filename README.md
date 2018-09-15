@@ -111,8 +111,8 @@ const profileColors = [
 For instruksjoner rundt `mdx-deck`, eller `mdx` generelt, ta en titt på de
 respektive dokumentasjonssidene:
 
-[`mdx`-spesifikasjonen](https://mdxjs.com/)
-[`mdx-deck`-dokumentasjon](https://github.com/jxnblk/mdx-deck)
+- [`mdx`-spesifikasjonen](https://mdxjs.com/)
+- [`mdx-deck`-dokumentasjon](https://github.com/jxnblk/mdx-deck)
 
 ## Utvikling
 
