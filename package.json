@@ -1,21 +1,22 @@
 {
-  "private": true,
-  "version": "1.0.0",
-  "description": "Example deck for the Bekk theme",
+  "version": "0.1.0",
+  "description": "Bekk mdx-deck theme",
   "scripts": {
     "start": "mdx-deck deck.mdx",
-    "build": "mdx-deck build deck.mdx",
-    "pdf": "mdx-deck pdf deck.mdx",
-    "image": "mdx-deck screenshot deck.mdx",
-    "help": "mdx-deck"
+    "build": "babel src -o lib"
   },
   "keywords": [],
-  "author": "Brent Jackson",
+  "author": "Kristofer Selbekk",
   "license": "MIT",
   "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.1",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
     "mdx-deck": "^1.6.7"
   },
   "name": "bekk-mdx-theme",
+  "main": "lib/index.js",
   "dependencies": {
     "react-syntax-highlighter": "^8.0.1"
   }
