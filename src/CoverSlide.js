@@ -38,7 +38,7 @@ const Title = styled.h1`
   margin: 1em 0 0 0;
 `;
 const Meta = styled.p`
-  color: ${colors.greyLight};
+  color: ${props => props.textColor || colors.greyLight};
   font-family: ${fonts.sansSerif};
   font-weight: 300;
   font-size: 32px;
@@ -53,7 +53,7 @@ const CoverSlide = props => (
     </TopContent>
     <MainContent>
       <Title>{props.what}</Title>
-      <Meta>{props.who}</Meta>
+      <Meta textColor={props.textColor}>{props.who}</Meta>
     </MainContent>
   </Container>
 );

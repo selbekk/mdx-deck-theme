@@ -1,5 +1,11 @@
 import { Head, Image } from 'mdx-deck'
-import { DefaultLayout as Layout, SmallText, StandaloneHeading } from './src';
+import { 
+  DefaultLayout as Layout, 
+  SmallText, 
+  StandaloneHeading, 
+  CoverSlide, 
+  colors,
+} from './src';
 
 export { lightTheme as theme } from './src'
 
@@ -52,7 +58,8 @@ på [merkevare.bekk.no](https://merkevare.bekk.no).
   where="Anledning"
   when="20. mars"
   who="Navn Navnesen, konsulent"
-  title="Digitalisering i det 22. århundre"
+  what="Digitalisering i det 22. århundre"
+  textColor={colors.black}
 />
 
 ---
