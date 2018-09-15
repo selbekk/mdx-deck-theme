@@ -3,7 +3,7 @@
   "description": "Bekk mdx-deck theme",
   "scripts": {
     "start": "mdx-deck deck.mdx",
-    "build": "babel src -o lib"
+    "build": "babel src --out-dir lib"
   },
   "keywords": [],
   "author": "Kristofer Selbekk",
