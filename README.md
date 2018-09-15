@@ -1,14 +1,17 @@
 # Bekk mdx-deck tema
 
-Bekk-tema for `mdx-deck`
+Et gjenbrukbart Bekk-tema for [`mdx-deck`](https://github.com/jxnblk/mdx-deck)!
 
 ## Bruk
 
 For å få Bekk-tema må du først installere det:
 
+```sh
+npm install selbekk/mdx-deck-theme
 ```
-npm install @bekk/mdx-deck-theme
-```
+
+Det er ikke lagt ut som en npm-pakke enda (siden vi fortsatt er i
+alfatesting-stadiet), men det kommer nok snart.
 
 Så, øverst i `deck.mdx`-fila di, legg til følgende linje:
 
