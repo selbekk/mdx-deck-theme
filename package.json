@@ -7,7 +7,7 @@
     "build:js": "babel src --out-dir lib",
     "build:docs": "mdx-deck build --out-dir docs deck.mdx"
   },
-  "keywords": [],
+  "keywords": ["bekk", "bekk-open", "mdx-deck", "mdx theme"],
   "author": "Kristofer Selbekk",
   "license": "MIT",
   "devDependencies": {
