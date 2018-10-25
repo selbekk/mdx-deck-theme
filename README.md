@@ -7,7 +7,7 @@ Et gjenbrukbart Bekk-tema for [`mdx-deck`](https://github.com/jxnblk/mdx-deck)!
 For å få Bekk-tema må du først installere det:
 
 ```sh
-npm install selbekk/mdx-deck-theme
+npm install @bekk-open/mdx-deck-theme
 ```
 
 Det er ikke lagt ut som en npm-pakke enda (siden vi fortsatt er i
@@ -16,13 +16,13 @@ alfatesting-stadiet), men det kommer nok snart.
 Så, øverst i `deck.mdx`-fila di, legg til følgende linje:
 
 ```js
-export { lightTheme as theme } from '@bekk/mdx-deck-theme';
+export { lightTheme as theme } from '@bekk-open/mdx-deck-theme';
 ```
 
 eller, for en litt mørkere tone:
 
 ```js
-export { darkTheme as theme } from '@bekk/mdx-deck-theme';
+export { darkTheme as theme } from '@bekk-open/mdx-deck-theme';
 ```
 
 ### Fonter
@@ -46,7 +46,7 @@ slippe å lage den selv.
 #### Eksempel
 
 ```js
-import { CoverSlide } from '@bekk/mdx-deck-theme';
+import { CoverSlide } from '@bekk-open/mdx-deck-theme';
 
 <CoverSlide
   what="Tittel på presentasjon"
@@ -64,7 +64,7 @@ En stor, sentrert tekst. Passer bra til å introdusere temas.
 #### Eksempel
 
 ```js
-import { StandaloneHeading } from '@bekk/mdx-deck-theme';
+import { StandaloneHeading } from '@bekk-open/mdx-deck-theme';
 
 <StandaloneHeading>Overskrifter er viktige</StandaloneHeading>;
 ```
@@ -76,7 +76,7 @@ Brukes under tabeller eller figurer for å beskrive hva som står over
 #### Eksempel
 
 ```js
-import { SmallText } from '@bekk/mdx-deck-theme'
+import { SmallText } from '@bekk-open/mdx-deck-theme'
 
 <SmallText>En beskrivelse av hva som står over</SmallText>
 ```
@@ -87,7 +87,7 @@ Et objekt med de forskjellige font-familiene vi bruker, om man trenger å gjøre
 tilpasninger.
 
 ```js
-import { fonts } from '@bekk/mdx-deck-theme'`
+import { fonts } from '@bekk-open/mdx-deck-theme'`
 
 const css = {
   h1: {
@@ -107,7 +107,7 @@ gjøre tilpasninger til temaet, eller lage sine egne komponenter.
 Følgende nøkler er tilgjengelig:
 
 ```js
-import { colors } from '@bekk/mdx-deck-theme'`
+import { colors } from '@bekk-open/mdx-deck-theme'`
 
 const profileColors = [
   colors.white,
