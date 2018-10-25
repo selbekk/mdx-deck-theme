@@ -10,6 +10,10 @@
   "keywords": ["bekk", "bekk-open", "mdx-deck", "mdx theme"],
   "author": "Kristofer Selbekk",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/selbekk/mdx-deck-theme"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.0.0",
