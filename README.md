@@ -10,9 +10,6 @@ For å få Bekk-tema må du først installere det:
 npm install @bekk-open/mdx-deck-theme
 ```
 
-Det er ikke lagt ut som en npm-pakke enda (siden vi fortsatt er i
-alfatesting-stadiet), men det kommer nok snart.
-
 Så, øverst i `deck.mdx`-fila di, legg til følgende linje:
 
 ```js
